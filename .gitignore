@@ -1,13 +1,17 @@
 
-# Created by https://www.gitignore.io/api/unity
+# To ignore the libary and temp files as it is not need follow this format
+# ProjectName/[Ll]ibary/
+#ProjectName/[Tt]emp/
+#
+# for each project you create in the rool directory
 
 ### Unity ###
 RollABall/[Ll]ibrary/
 RollABall/[Tt]emp/
-RollABall//[Oo]bj/
-RollABall//[Bb]uild/
-RollABall//[Bb]uilds/
-RollABall//Assets/AssetStoreTools*
+RollABall/[Oo]bj/
+RollABall/[Bb]uild/
+RollABall/[Bb]uilds/
+RollABall/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/
