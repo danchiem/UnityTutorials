@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4055838147193228}
   - component: {fileID: 114278511274496970}
-  - component: {fileID: 114874277518302170}
+  - component: {fileID: 114364661981704984}
   m_Layer: 0
-  m_Name: GameMangager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +88,7 @@ MonoBehaviour:
   - {fileID: 1086145147457486, guid: 161fe86db9391aa459dafb34e9cbf70c, type: 2}
   - {fileID: 1773877924858916, guid: 4f6274b2787c593498017a6537e6e0a9, type: 2}
   - {fileID: 1111315376588092, guid: 6e29e9a24f6fb8a438271b9aeb9e6702, type: 2}
---- !u!114 &114874277518302170
+--- !u!114 &114364661981704984
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -96,7 +96,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1042470351520196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 169621c9761566e40af133b4a9381db6, type: 3}
+  m_Script: {fileID: 11500000, guid: 694eb13ea6949674aa26c439d1182f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardScript: {fileID: 0}

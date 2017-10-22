@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95696078459318276}
   - component: {fileID: 61157373941430812}
   - component: {fileID: 50183272063445806}
+  - component: {fileID: 114624254350002354}
   m_Layer: 8
   m_Name: enemyOne
   m_TagString: Enemy
@@ -72,7 +73,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -105,6 +106,22 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114624254350002354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1097205264869822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d79a87e2ceebbb4fb1dafbd7988e9bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 0.1
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  playerDamage: 10
 --- !u!212 &212311637235253270
 SpriteRenderer:
   m_ObjectHideFlags: 1
